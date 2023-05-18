@@ -1,0 +1,32 @@
+
+body{
+    background-color: black;
+}
+
+    h1{
+       color: #00FFFF; 
+    } 
+ p,h2 {
+  color: #DC143C;
+  text-align: center;
+ }
+
+
+/* *{  border: solid;  }
+*/
+ .encabezado{
+    background-color: rgb(88, 24, 69);
+    display:flex;
+    justify-content : space-between;
+}
+
+.juegos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.redes{
+display: flex;
+justify-content: flex-end;
+}
